@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: calculator;
+    src: url(./font/digital-7.ttf);
+}
+
+
 
 h1{
     text-align: center;
@@ -19,6 +25,12 @@ section{
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -46,6 +58,7 @@ input{
     background-color: rgb(40, 39, 39);
     color: white;
     padding: 10px;
+    font-family: calculator;
 }
 
 .lightGrey{
